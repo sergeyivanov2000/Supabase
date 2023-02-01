@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Supabase</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <nav class="header__nav">
+                        <a href="#" class="header__logo">
+                            <img src="img/logo.svg" alt="logo" class="logo">
+                        </a>
+                        <ul class="header__menu">
+                            <li class="header__menu-item"> <a href="#" class="header__menu-link header__menu-link--arrow">Product</a> </li>
+                            <li class="header__menu-item"> <a href="#" class="header__menu-link header__menu-link--arrow">Developers</a> </li>
+                            <li class="header__menu-item"> <a href="#" class="header__menu-link">Beta</a> </li>
+                            <li class="header__menu-item"> <a href="#" class="header__menu-link">Pricing</a> </li>
+                        </ul>
+                    </nav>
+                    <div class="header__right">
+                        <button class="header__button button">Start your project</button>
+                        <a href="#" class="header__signin">Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__main main">
+                <div class="container">
+                    <div class="main__body">
+                        <div class="main__content">
+                            <div class="main__storage">
+                                <img src="img/main/storage.svg" class="main__storage-img">
+                                <p class="main__storage-text">Storage</p>
+                            </div>
+                            <h1 class="main__title title title--big"> Store and serve <br> any type of digital content</h1>
+                            <div class="main__text">
+                                <p class="main__text-item">An open source Object store service with unlimited scalability, for any file type.</p>
+                                <p class="main__text-item">With custom policies and permissions that are familiar and easy to implement.</p>
+                            </div>
+                            <button class="main__button button button--big">Start a project</button>
+                        </div>
+                        <div class="main__img ibg">
+                            <img src="img/main/main.svg" alt="background">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__cards cards">
+                <div class="container">
+                    <div class="cards__body">
+                        <div class="cards__card card">
+                            <div class="card__picture-block">
+                                <img src="img/main/interoperable/1.svg" alt="1" class="card__picture-block-img">
+                                <img src="img/main/interoperable/x.svg" alt="x" class="card__picture-block-img">
+                                <img src="img/main/interoperable/2.svg" alt="2" class="card__picture-block-img">
+                                <img src="img/main/interoperable/x.svg" alt="x" class="card__picture-block-img">
+                                <img src="img/main/interoperable/3.svg" alt="3" class="card__picture-block-img">
+                            </div>
+                            <h4 class="card__title">Interoperable</h4>
+                            <p class="card__text">Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.</p>
+                        </div>
+                        <div class="cards__card card">
+                            <div class="card__picture-block">
+                                <img src="img/icons/signal.svg" alt="signal" class="card__picture-block-img">
+                            </div>
+                            <h4 class="card__title">Lightning fast</h4>
+                            <p class="card__text">Thin API server layer that leverages Postgres' permissions and performance.</p>
+                        </div>
+                        <div class="cards__card card">
+                            <div class="card__picture-block">
+                                <img src="img/icons/galochka.svg" alt="galochka" class="card__picture-block-img">
+                            </div>
+                            <h4 class="card__title">Dependable</h4>
+                            <p class="card__text card__text--small">Enterprise-level scalability and durability.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__dashboard dashboard">
+                <div class="container">
+                    <div class="dashboard__body">
+                        <h2 class="dashboard__title title">Sleek dashboard for managing your media</h2>
+                        <div class="dashboard__text text">
+                            <p class="text__item">A complete Object Explorer so that any of your team can use.</p>
+                            <p class="text__item text__item--small">Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your desktop.</p>
+                        </div>
+                        <div class="dashboard__content">
+                            <div class="dashboard__slider slider">
+                                <div class="slider__menu">
+                                    <button class="slider__button slider__button--active">File previews</button>
+                                    <button class="slider__button">Column view</button>
+                                    <button class="slider__button">List view</button>
+                                    <button class="slider__button">Multi select actions</button>
+                                    <button class="slider__button">Path navigator</button>
+                                </div>
+                                <div class="slider__window">
+                                   <div class="slider__img ibg">
+                                        <img src="img/slider.svg" alt="slider-img">
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="dashboard__col">
+                                <div class="dashboard__col-top">
+                                    <h4 class="dashboard__col-title">File previews</h4>
+                                    <p class="dashboard__col-text">Preview any media type, including video and audio.</p>
+                                </div>
+                                <div class="dashboard__col-body">
+                                    <h4 class="dashboard__col-title">Check out our example app</h4>
+                                    <div class="dashboard__col-example example">
+                                        <h5 class="example__title">Profile management example</h5>
+                                        <p class="example__text">Update a user account with public profile <br> information, including uploading a profile image.</p>
+                                        <div class="example__created">
+                                            <p class="example__created-text">Created by:</p>
+                                            <a href="#" class="example__created-author">supabase</a>
+                                        </div>
+                                    </div>
+                                    <div class="dashboard__col-deploy deploy">
+                                        <div class="deploy__user">
+                                            <p class="deploy__user-name">nextjs-ts-user-management</p>
+                                            <img src="img/icons/github-vector.svg" alt="git" class="deploy__user-img">
+                                        </div>
+                                        <button class="deploy__button">Deploy</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__intagrates integrates">
+                <div class="container">
+                    <div class="integrates__body">
+                        <div class="integrates__content">
+                            <h2 class="integrates__title title title--small">Simple and convenient APIs</h2>
+                            <div class="integrates__text text">
+                                <p class="text__item text__item--small">Built from the ground-up for interoperable authentication.</p>
+                                <p class="text__item text__item--small">Fast and easy to implement using our powerful library clients. Asset optimization and image transformation coming soon!</p>
+                            </div>
+                            <div class="integrates__cards">
+                                <div class="integrates__card card">
+                                    <div class="card__picture-block">
+                                        <img src="img/icons/wifi.svg" alt="wifi" class="card__picture-block-img">
+                                    </div>
+                                    <h4 class="card__title">CDN integration</h4>
+                                    <p class="card__text card__text--small">Serve from the edge to reduce latency.</p>
+                                    <button class="card__button">Coming soon</button>
+                                </div>
+                                <div class="integrates__card card">
+                                    <div class="card__picture-block">
+                                        <img src="img/icons/arrows.svg" alt="arrows" class="card__picture-block-img">
+                                    </div>
+                                    <h4 class="card__title">Auto transformation & optimisation</h4>
+                                    <p class="card__text card__text--small">Resize and compress your media before you serve it.</p>
+                                    <button class="card__button">Coming soon</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="integrates__slider slider">
+                            <div class="slider__menu">
+                                <button class="slider__button slider__button--active">Upload a file</button>
+                                <button class="slider__button">Download a file</button>
+                                <button class="slider__button">List files</button>
+                                <button class="slider__button">Move and rename files</button>
+                                <button class="slider__button">Delete files</button>
+                            </div>
+                            <div class="slider__window">
+                               <div class="slider__codewindow codewindow codewindow--extend">
+                                    <a href="" class="codewindow__copy">
+                                        <img class="codewindow__copy-img" src="img/icons/copy.svg" alt="copy">
+                                        <p class="codewindow__copy-text">Copy</p>
+                                    </a>
+                                    <ol class="codewindow__rows">
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                        <li class="codewindow__row"><span class="codewindow__comment">// Upload an image to the "avatars" bucket</span></li>
+                                        <li class="codewindow__row"><span class="codewindow__operator">const</span> spaceCat = event.target.files[0]</li>
+                                        <li class="codewindow__row"><span class="codewindow__operator">const</span> { data, error } = <span class="codewindow__operator">await</span> supabase</li>
+                                        <li class="codewindow__row">.storage</li>
+                                        <li class="codewindow__row">.from(<span class="codewindow__string"> 'avatars' </span> )</li>
+                                        <li class="codewindow__row">.upload(<span class="codewindow__string"> 'space-cat.png' </span> , spaceCat) </li>
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                        <li class="codewindow__row"><pre> </pre> </li>
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                    </ol>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__auth auth">
+                <div class="container">
+                    <div class="auth__body">
+                        <div class="auth__content">
+                            <h2 class="auth__title title title--small">Integrates natively with Supabase Auth</h2>
+                            <div class="auth__text text">
+                                <p class="text__item text__item--small">Using Postgres Row Level Security to create Object access rules.</p>
+                                <p class="text__item text__item--small">Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres functions, and even your own metadata to write policies.</p>
+                            </div>
+                            <a href="#" class="auth__explore">
+                                <img src="img/icons/arrow-big.svg" alt="arrow-big" class="auth__explore-img">
+                                <p class="auth__explore-text">Expore documentation</p>
+                            </a>
+                        </div>
+                        <div class="auth__slider slider" >
+                            <div class="slider__menu">
+                                <button class="slider__button slider__button--active">Public access to a bucket</button>
+                                <button class="slider__button">Public access to a folder</button>
+                                <button class="slider__button">Authenticated access to a bucket</button>
+                            </div>
+                            <div class="slider__window">
+                               <div class="slider__codewindow codewindow">
+                                    <a href="" class="codewindow__copy">
+                                        <img class="codewindow__copy-img" src="img/icons/copy.svg" alt="copy">
+                                        <p class="codewindow__copy-text">Copy</p>    
+                                    </a>
+                                    <ol class="codewindow__rows">
+                                        <li class="codewindow__row"><span class="codewindow__operator">create policy</span> <span class="codewindow__string"> "Public Access" </span></li>
+                                        <li class="codewindow__row"><span class="codewindow__operator">on</span> storage.objects <span class="codewindow__operator">for all</span> supabase</li>
+                                        <li class="codewindow__row"><span class="codewindow__operator">using</span> ( bucket_id = <span class="codewindow__string"> 'avatars' </span>); </li>
+                                        <li class="codewindow__row"><pre> </pre></li>
+                                    </ol>
+                                    <div class="slider__content">
+                                       <p class="slider__text slider__text--big">Allow public CRUD access to a bucket</p>
+                                       <p class="slider__text">This will allow any user access to the bucket named 'avatars'</p>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__build build">
+                <div class="container">
+                    <div class="build__body">
+                        <h2 class="build__title title title--small"> <span class="title--gray">Build in a weekend, </span>scale to millions</h2>
+                        <button class="build__button button button--big">Start your project</button>
+                    </div>
+                </div>
+            </section>
+            <section class="page__links links">
+                <div class="container">
+                    <div class="links__body">
+                        <div class="links__images">
+                            <img class="links__logo logo" src="img/logo.svg" alt="#">
+                            <div class="links__social">
+                                <a href="#"><img src="img/social/twitter.svg" alt="twitter" class="links__social-item"></a>
+                                <a href="#"><img src="img/social/github.svg" alt="github" class="links__social-item"></a>
+                            </div>
+                        </div>
+                        <div class="links__cols">
+                            <div class="links__col">
+                                <h4 class="links__title">Product</h4>
+                                <ul class="links__list">
+                                    <li class="links__item"><a href="#" class="links__item-link">Database</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Authentication</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Storage</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Functions</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Coming soon</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Pricing</a></li>
+                                </ul>
+                            </div>
+                            <div class="links__col">
+                                <h4 class="links__title">Resources</h4>
+                                <ul class="links__list">
+                                    <li class="links__item"><a href="#" class="links__item-link">Support</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Case Studies</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">System Status</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Terms of service</a></li>
+                                </ul>
+                            </div>
+                            <div class="links__col">
+                                <h4 class="links__title">Developers</h4>
+                                <ul class="links__list">
+                                    <li class="links__item"><a href="#" class="links__item-link">Documentation</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">API Reference</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Guides</a></li>
+                                </ul>
+                            </div>
+                            <div class="links__col">
+                                <h4 class="links__title">Company</h4>
+                                <ul class="links__list">
+                                    <li class="links__item"><a href="#" class="links__item-link">Blog</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Open Source</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Humans.txt</a></li>
+                                    <li class="links__item"><a href="#" class="links__item-link">Lawyers.txt</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <p class="footer__copy">© Supabase Inc</p>
+                    <div class="footer__thema">
+                        <img src="img/footer/light.svg" alt="light" class="footer__img">
+                        <div class="footer__toggle">
+                           <div class="footer__switcher"></div>
+                        </div>
+                        <img src="img/footer/dark.svg" alt="light" class="footer__img">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
